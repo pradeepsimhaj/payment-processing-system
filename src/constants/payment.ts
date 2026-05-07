@@ -1,0 +1,8 @@
+export const PAYMENT_STATUS = {
+  PENDING: 'PENDING',
+  PROCESSING: 'PROCESSING',
+  SUCCESS: 'SUCCESS',
+  FAILED: 'FAILED',
+} as const;
+
+export const MAX_RETRY_ATTEMPTS = 3;
